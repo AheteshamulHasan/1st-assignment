@@ -1,0 +1,159 @@
+/* Universal Style */
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* Header Styles */
+.header {
+    width: 100%;
+    height: 1030px;
+    background: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.header-container {
+    text-align: right;
+    width: 700px;
+    margin: 0 0 0 auto;
+    color: #fff;
+}
+
+.header-title {
+    padding: 270px 260px 24px 0;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.header-description {
+    padding: 0 260px 32px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+}
+
+.header-container a {
+    text-decoration: none;
+    padding: 0 260px 0 0;
+}
+
+.header-container a .btn-primary {
+    padding: 25px 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+
+}
+
+.header-container a:hover .btn-primary {
+    background: #444343;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* Section Myself Styles */
+
+.myself-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 130px;
+}
+
+.my-achievement {
+    width: 416px;
+    margin: auto 0;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.my-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin: 40px 0;
+}
+
+.achieved {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #444343;
+}
+
+/* Section My Plan Styles */
+
+.my-plans .section-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.my-plan-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    width: 1144px;
+    margin: auto;
+    text-align: center;
+}
+
+.heading-title {
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.to-do-list {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Section Mindset Styles */ 
+
+.mindset {
+    width: 1140px;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0, 132, 255)), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover bottom;
+    margin-top: 130px;
+}
+
+.mindset-title {
+    width: 450px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 50px 0 0 50px;
+    line-height: 47px;
+}
+
+.mindset .btn-primary {
+    padding: 25px 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    margin: 24px 0 0 50px;
+}
+
+.mindset a:hover .btn-primary {
+    background: #444343;
+    color: #fff;
+    cursor: pointer;
+}
