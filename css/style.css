@@ -58,7 +58,7 @@
 }
 
 
-/* Section Myself Styles */
+/* Myself Styles  */
 
 .myself-container {
     display: flex;
@@ -83,7 +83,7 @@
     font-size: 16px;
     line-height: 26px;
     color: #444343;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .achieved {
@@ -93,7 +93,7 @@
     color: #444343;
 }
 
-/* Section My Plan Styles */
+/* My Plan Styles */
 
 .my-plans .section-title {
     text-align: center;
